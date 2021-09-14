@@ -11,7 +11,7 @@ public class ATM
         double withdraw_amt = 20, account_balance = 1000;
 
         //check input
-        if(withdraw_amt > 0 && withdraw_amt <= 2000 && withdraw_amt%5=0 && account_balance>0 && account_balance > withdraw_amt);
+        if(withdraw_amt > 0 && withdraw_amt <= 2000 && withdraw_amt%5==0 && account_balance > 0 && account_balance > withdraw_amt);
         {
             account_balance=account_balance- withdraw_amt-.5;
         }
